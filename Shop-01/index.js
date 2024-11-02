@@ -1,9 +1,9 @@
 $(document).ready(function(){
     let images=[
-        '../image/qulaqliq1.webp', 
-        '../image/qulaqliq2.webp', 
-        '../image/qulaqliq3.webp', 
-        '../Shop/image/qulaqliq4webp.png'
+        '../Shop-01/image/qulaqliq1.webp', 
+        '../Shop-01/image/qulaqliq2.webp', 
+        '../Shop-01/image/qulaqliq3.webp', 
+        '../Shop-01/image/qulaqliq4webp.png'
     ]
     let index=0
 
@@ -85,7 +85,7 @@ $(document).ready(function(){
     })
 
     $('.im-01').click(function(){
-        let image1='../image/qulaqliq1.webp'
+        let image1='../Shop-01/image/qulaqliq1.webp'
         localStorage.setItem('birincisekil', image1)
         $('.mehsul-1').css({
             'background-image': `url(${image1})`,
@@ -99,7 +99,7 @@ $(document).ready(function(){
     })
 
     $('.im-02').click(function(){
-        let image2='../image/qulaqliq2.webp'
+        let image2='../Shop-01/image/qulaqliq2.webp'
         localStorage.setItem('ikincisekil', image2)
         $('.mehsul-2').css({
             'background-image': `url(${image2})`,
@@ -113,7 +113,7 @@ $(document).ready(function(){
     })
 
     $('.im-03').click(function(){
-        let image3='../image/qulaqliq3.webp'
+        let image3='../Shop-01/image/qulaqliq3.webp'
         localStorage.setItem('ucuncusekil', image3)
         $('.mehsul-3').css({
             'background-image': `url(${image3})`,
@@ -127,7 +127,7 @@ $(document).ready(function(){
     })
 
     $('.im-04').click(function(){
-        let image4='../image/qulaqliq4webp.png'
+        let image4='../Shop-01/image/qulaqliq4webp.png'
         localStorage.setItem('dorduncusekil', image4)
         $('.mehsul-4').css({
             'background-image': `url(${image4})`,

@@ -115,7 +115,7 @@ a>span{
 .img{
     width: 500px;
     height: 600px;
-    background-image: url(../image/img1.webp);
+    background-image: url(../Shop-01/image/img1.webp);
     background-size: cover;
     background-position: center;
 }
@@ -376,7 +376,7 @@ textarea{
 .sek{
     width: 50px;
     height: 50px;
-    background-image: url(../image/basliq-1.webp);
+    background-image: url(../Shop-01/image/basliq-1.webp);
     background-size: cover;
     background-position: center;
 }
@@ -512,7 +512,7 @@ footer{
 .img-01{
     width: 50px;
     height: 50px;
-    background-image: url(../image/sec1.webp);
+    background-image: url(../Shop-01/image/sec1.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -521,7 +521,7 @@ footer{
 .img-02{
     width: 50px;
     height: 50px;
-    background-image: url(../image/basliq-1.webp);
+    background-image: url(../Shop-01/image/basliq-1.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -540,7 +540,7 @@ footer{
 .img-03{
     width: 50px;
     height: 50px;
-    background-image: url(../image/sec2.webp);
+    background-image: url(../Shop-01/image/sec2.webp);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -639,14 +639,14 @@ footer{
 .im-01{
     width: 100%;
     height: 80%;
-    background-image: url(../image/qulaqliq1.webp);
+    background-image: url(../Shop-01/image/qulaqliq1.webp);
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 
 .im-01:hover{
-    background-image: url(../image/qulaqliq1.webp);
+    background-image: url(../Shop-01/image/qulaqliq1.webp);
     background-size: 200% 200%;
     background-position: center;
 }
@@ -654,14 +654,14 @@ footer{
 .im-02{
     width: 100%;
     height: 80%;
-    background-image: url(../image/qulaqliq2.webp);
+    background-image: url(../Shop-01/image/qulaqliq2.webpp);
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 
 .im-02:hover{
-    background-image: url(../image/qulaqliq2.webp);
+    background-image: url(../Shop-01/image/qulaqliq2.webp);
     background-size: 200% 200%;
     background-position: center;
 }
@@ -669,14 +669,14 @@ footer{
 .im-03{
     width: 100%;
     height: 80%;
-    background-image: url(../image/qulaqliq3.webp);
+    background-image: url(../Shop-01/image/qulaqliq3.webp);
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 
 .im-03:hover{
-    background-image: url(../image/qulaqliq3.webp);
+    background-image: url(../Shop-01/image/qulaqliq3.webp);
     background-size: 200% 200%;
     background-position: center;
 }
@@ -684,14 +684,14 @@ footer{
 .im-04{
     width: 100%;
     height: 80%;
-    background-image: url(../image/qulaqliq4webp.png);
+    background-image: url(../Shop-01/image/qulaqliq4webp.png);
     background-size: cover;
     background-position: center;
     cursor: pointer;
 }
 
 .im-04:hover{
-    background-image: url(../image/qulaqliq4webp.png);
+    background-image: url(../Shop-01/image/qulaqliq4webp.png);
     background-size: 200% 200%;
     background-position: center;
 }
