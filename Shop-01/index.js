@@ -192,6 +192,12 @@ $(document).ready(function(){
             color: 'white',          
             padding: '20px' 
         })
+        $('ul').css({
+            width:'260px',
+            position: 'fixed',
+            top: '13%',
+            left: '25%',
+        })
         $('.bi-list').hide()
 
         $('.bi-x-square-fill').css({
