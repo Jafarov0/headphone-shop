@@ -1,0 +1,1156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    color:dodgerblue;
+    transition: 1s all; 
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1:hover{
+    color: deepskyblue;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    position: fixed;
+}
+
+.hedbox{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    width: 500px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav>ul{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+li{
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color:rgb(141, 209, 246);
+    transition: 1s all;
+    font-family: "Arima", system-ui;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+a:hover{
+    color: deepskyblue;
+}
+
+.bi-cart-fill{
+    color:rgb(141, 209, 246);
+    font-size: 22px;
+    cursor: pointer;
+    transition: 1s all;
+}
+
+.bi-cart-fill:hover{
+    color: deepskyblue;
+}
+
+.logo{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a>span{
+    font-size: 20px;
+}
+
+.bi-person-circle{
+    font-size: 25px;
+}
+
+/* ana div */
+
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.img{
+    width: 500px;
+    height: 600px;
+    background-image: url(./image/img1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.text{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+h4{
+    font-size: 80px;
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+}
+
+.b1{
+    border: none;
+    padding: 10px 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.b1:hover{
+    background-color:dodgerblue;
+}
+
+.b1>a{
+    color: black;
+}
+
+.ikinci{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 15px;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p{
+    color: black;
+    text-align: center;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+.melumat{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.deyisenImg{
+    width: 500px;
+    height: 450px;
+}
+/* ucuncu div */
+.ucuncu{
+    width: 100%;
+    height: 900px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.ucun-1{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ucun-1>h5{
+    font-size: 80px;
+    color: darkgrey;
+    font-family: "Playwrite GB S", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.ucun-2{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+video{
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.ucun-3{
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h6{
+    font-size: 20px;
+    color: dimgray;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.mel-1,.mel-2,.mel-3,.mel-4,.mel-5,.mel-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* dorduncu  */
+
+.dord{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dord-1{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dord-1>h5{
+    font-size: 70px;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.dord-2{
+    width: 800px;
+    height: 400px;
+}
+
+.in-1{
+    display: flex;
+    height: 70px;
+    
+}
+
+.ic-1,.ic-2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    padding: 3px;
+}
+
+input{
+    padding: 10px;
+    outline: none;
+}
+
+label{
+    font-size: 14px;
+}
+
+.dord-3{
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.in-2,.in-3{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.in-4{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 100px;
+}
+
+textarea{
+    height: 50px;
+    resize: none;
+    padding: 3px;
+    outline: none;
+}
+
+.btnDiv{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    padding-right: 5px;
+}
+
+.submit{
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 1s all;
+    border: none;
+}
+
+.submit:hover{
+    background-color:dodgerblue;
+}
+
+.sek{
+    width: 50px;
+    height: 50px;
+    background-image: url(./image/basliq-1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.adres{
+    width: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.shop>a{
+    color: black;
+}
+
+.shop{
+    border: none;
+    padding: 10px 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.shop:hover{
+    background-color:dodgerblue;
+}
+
+.dord-3>p{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sonluq>p{
+    font-size: 12px;
+    color: white;
+}
+
+.icon{
+    border: solid black 1px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icon>a>i{
+    font-size: 20px;
+}
+
+.aboutCon{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-1{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-1>h2{
+    font-size: 60px;
+    font-family: "Playfair Display", serif; 
+    font-optical-sizing: auto;
+    font-weight: 100; 
+    font-style: normal;
+    color: dodgerblue;
+
+}
+
+.about-2{
+    width: 1200px;
+    height:550px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec-3,.sec-4,.sec-5{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec-1,.sec-2{
+    width: 500px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sec-1>h4{
+    color: black;
+    font-size: 18px;
+}
+
+.sec-1>p{
+    font-size: 13px;
+    padding: 5px;
+}
+
+
+.img-01{
+    width: 50px;
+    height: 50px;
+    background-image: url(./image/sec1.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-02{
+    width: 50px;
+    height: 50px;
+    background-image: url(./image/basliq-1.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec-2>h4{
+    color: black;
+    font-size: 18px;
+}
+
+.sec-2>p{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.img-03{
+    width: 50px;
+    height: 50px;
+    background-image: url(./image/sec2.webp);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sec-3>p{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.sec-4>p{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.sec-5>p{
+    font-size: 13px;
+    padding: 5px;
+}
+
+.sec-6{
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.btn-01{
+    border: none;
+    padding: 10px 30px;
+    transition: 1s all;
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+.btn-01>a{
+    color: white;
+}
+
+.btn-01:hover{
+    background-color:dodgerblue;
+}
+
+.products{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.produc-1{
+    width: 320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produc-1>h2{
+    font-size: 60px;
+    font-family: "Playfair Display", serif; 
+    font-optical-sizing: auto;
+    font-weight: 100; 
+    font-style: normal;
+    color: dodgerblue;
+}
+
+.produc-2{
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.pr-1,.pr-2,.pr-3,.pr-4{
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 8px rgba(20, 136, 230, 0.3);
+}
+
+.im-01{
+    width: 100%;
+    height: 80%;
+    background-image: url(./image/qulaqliq1.webp);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.im-01:hover{
+    background-image: url(./image/qulaqliq1.webp);
+    background-size: 200% 200%;
+    background-position: center;
+}
+
+.im-02{
+    width: 100%;
+    height: 80%;
+    background-image: url(./image/qulaqliq2.webp);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.im-02:hover{
+    background-image: url(./image/qulaqliq2.webp);
+    background-size: 200% 200%;
+    background-position: center;
+}
+
+.im-03{
+    width: 100%;
+    height: 80%;
+    background-image: url(./image/qulaqliq3.webp);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.im-03:hover{
+    background-image: url(./image/qulaqliq3.webp);
+    background-size: 200% 200%;
+    background-position: center;
+}
+
+.im-04{
+    width: 100%;
+    height: 80%;
+    background-image: url(./image/qulaqliq4webp.png);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.im-04:hover{
+    background-image: url(./image/qulaqliq4webp.png);
+    background-size: 200% 200%;
+    background-position: center;
+}
+
+.qiymet{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qiymet>h6{
+    font-size: 15px;
+    color: black;
+}
+
+.qiymet>p{
+    font-size: 13px;
+}
+
+.qutum{
+    width: 300px;
+    height: 400px;
+    box-shadow: 1px 1px 1px 3px;
+    position: fixed;
+    top: 80px;
+    right: 10px;
+    display: none;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.del-1{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+
+.bi-x-circle{
+    cursor: pointer;
+    
+}
+
+.sebetCon{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.mehsul-1,.mehsul-2,.mehsul-3,.mehsul-4{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.del2,.del3,.del4,.del5{
+    display: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.loginCon{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.logIn{
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logIn>input{
+    width: 70%;
+    height: 50px;
+}
+
+.inQey{
+    border: none;
+    padding: 10px 30px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.inQey:hover{
+    background-color:dodgerblue;
+}
+
+.register>h2{
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+.bi-list,.burger,.bi-x-square-fill{
+    display: none;
+}
+
+
+
+@media (max-width: 680px) {
+    h1{
+        font-size: 15px;
+    }
+    nav{
+        display: none;
+    }
+    .hedbox{
+        width: 15%;
+    }
+    .bi-person-circle{
+        font-size: 15px;
+    }
+    a>span{
+        font-size: 15px;
+    }
+    .bi-list{
+        display: block;
+        color:rgb(141, 209, 246);
+        font-size: 25px;
+        padding-top: 5px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+    .bi-list:hover{
+        color: deepskyblue;
+    }
+    .burger{
+        display: block; 
+    }
+    .bi-x-square-fill{
+        color:rgb(141, 209, 246);
+        display: none;
+        padding-top: 5px;
+        cursor: pointer;
+        transition: 1s all;
+    }
+    .bi-x-square-fill:hover{
+        color: deepskyblue;
+    }
+    li{
+        font-size: 13px;
+    }
+    .bi-cart-fill{
+        font-size: 20px;
+        
+    }
+    .sebet{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3px;
+    }
+    #container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        overflow: hidden;
+        
+    }
+    .img{
+        width: 60%;
+        height: 60%;
+    }
+    .text{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .text>h4{
+        font-size: 25px;
+    }
+    .b1{
+        width: 110px;
+        height: 30px;
+        padding: 0;
+    }
+    .ikinci{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        overflow: hidden;
+    }
+    .deyisenImg{
+        width: 50%;
+        height: 50%;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 12px;
+        padding: 5%;
+    }
+    .ucuncu{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .ucun-1{
+        height: 20%;
+
+    }
+    .ucun-1>h5{
+        font-size: 20px;
+    }
+    .ucun-2{
+        width: 70%;
+    }
+    .ucun-3{
+        flex-wrap: wrap;
+        width: 70%;
+    }
+    .mel-1>img{
+        width: 25px;
+        height: 25px;
+    }
+    .mel-1>h6{
+        font-size: 12px ;
+    }
+    .mel-2>img{
+        width: 25px;
+        height: 25px;
+    }
+    .mel-2>h6{
+        font-size: 12px ;
+    }
+    .mel-3>img{
+        width: 25px;
+        height: 25px;
+    }
+    .mel-3>h6{
+        font-size: 12px ;
+    }
+    .mel-4>img{
+        width: 25px;
+        height: 25px;
+    }
+    .mel-4>h6{
+        font-size: 12px ;
+    }
+    .mel-5>img{
+        width: 25px;
+        height: 25px;
+    }
+    .mel-5>h6{
+        font-size: 12px ;
+    }
+    .mel-6>img{
+        width: 25px;
+        height: 25px;
+    }
+    .mel-6>h6{
+        font-size: 12px ;
+    }
+    .dord{
+        overflow: hidden;
+    }
+    .dord-1{
+        height: 15%;
+    }
+    .dord-1>h5{
+        font-size: 20px;
+    }
+    .dord-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .in-1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 40%;
+        width: 100%;
+        
+    }
+    .ic-1,.ic-2{
+        width: 20%;
+    }
+    .in-2,.in-3,.in-4{
+        width: 20%;
+    }
+    .btnDiv{
+        width: 20%;
+        padding: 0;
+    }
+    .submit{
+        width: 100px;
+        margin: 0;
+        font-size: 13px;
+    }
+    .dord-3{
+        width: 70%;
+        height: 35%;
+        margin-top: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    .sek{
+        width: 25px;
+        height: 25px;
+    }
+    .dord-3>h2{
+        font-size: 15px;
+    } 
+    .dord-3>p{
+        font-size: 12px;
+    }
+    .dord-3>a{
+        font-size: 10px;
+    }
+    .adres>a{
+        font-size: 10px;
+    }
+    .adres{
+        width: 60%;
+    }
+    .shop{
+        padding: 0;
+        width: 100px;
+        height: 30px;
+        font-size: 13px;
+    }
+    .sonluq{
+        width: 47%;
+    }
+    .sonluq>p{
+        font-size: 9px;
+    }
+    .icon{
+        width: 10%;
+    }
+    .icon>a>i{
+        font-size: 12px;
+    }
+    .aboutCon{
+        overflow: hidden;
+    }
+    .about-1{
+        height: 15%;
+    }
+    .about-1>h2{
+        font-size: 15px;
+    }
+    .about-2{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .sec-1,.sec-2{
+        width: 35%;
+        height: 25%;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .img-01,.img-02,.img-03{
+        width: 20px;
+        height: 20px;
+    }
+    .sec-1>h4{
+        font-size: 12px;
+    }
+    .sec-1>p{
+        font-size: 9px;
+    }
+
+    .sec-2>h4{
+        font-size: 12px;
+    }
+    .sec-2>p{
+        font-size: 9px;
+    }
+    .sec-3>p{
+        font-size: 9px;
+    }
+    .sec-3,.sec-4,.sec-5{
+        width: 35%;
+        height: 16%;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    }
+    .sec-4>p{
+        font-size: 9px;
+    }
+    .sec-5>p{
+        font-size: 9px;
+    }
+    .btn-01{
+        padding: 0;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .produc-1{
+       padding-top: 100px;
+    }
+    .produc-1>h2{
+        font-size: 15px;  
+    }
+    .produc-2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+        height: 500px;
+    }
+    .pr-1,.pr-2,.pr-3,.pr-4{
+        width: 160px;
+        height: 150px;
+    }
+    .im-01,.im-02,.im-03,.im-04{
+        width: 100px;
+        height: 100px;
+    }
+    .qiymet>h6{
+        font-size: 12px;
+    }
+    .qiymet>p{
+        font-size: 10px;
+    }
+    .register>h2{
+        font-size: 20px;
+    }
+    .logIn>input{
+        height: 30px;
+    }
+    .inQey{
+        padding: 7px 20px;
+    }
+
+}
+
+  
