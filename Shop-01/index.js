@@ -196,7 +196,7 @@ $(document).ready(function(){
             width:'260px',
             position: 'fixed',
             top: '13%',
-            left: '20%',
+            left: '18%',
         })
         $('.bi-list').hide()
 
